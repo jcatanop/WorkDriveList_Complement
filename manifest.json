@@ -2,13 +2,10 @@
   "manifest_version": 2,
   "name": "WorkDriveList",
   "version": "1.0",
-
-  "description": "Ayuda a listar los documentos en Zoho WorkDrive",
-
+  "description": "Help listing documents in Zoho WorkDrive",
   "icons": {
     "48": "icons/appox-48.png"
   },
-
   "content_scripts": [
     {
       "matches": ["*://*.workdrive.zoho.com/*"], 
